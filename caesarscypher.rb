@@ -3,9 +3,6 @@ puts "The old chap used a cryptographic method to encode his messages and letter
 puts "How? Shift each letter in the alphabet by a certain number. "
 puts "What sentence do you want to encode?"
 
-#cypher = gets.chomp
-code = []
-
 def cypher(string, shift=5)
     code = string.split(//)
     code_table =* ("a".."z")
